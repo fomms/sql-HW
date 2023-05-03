@@ -2,7 +2,7 @@ import psycopg2
 from psycopg2.extensions import AsIs
 
 
-conn = psycopg2.connect(database='test', user='postgres', password='130791ccC')
+conn = psycopg2.connect(database='test', user='postgres', password='')
 cur = conn.cursor()
 
 
